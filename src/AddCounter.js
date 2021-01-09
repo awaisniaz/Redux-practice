@@ -4,9 +4,6 @@ import { addCounter } from './actions/index';
 import { bindActionCreators } from 'redux';
 
 class AddCounter extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <div className="container">

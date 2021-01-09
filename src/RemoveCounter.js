@@ -6,9 +6,6 @@ import { removeCounter } from './actions/index';
 import { bindActionCreators } from 'redux';
 
 class RemoveCounter extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <div className="container">
